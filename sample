@@ -1,0 +1,160 @@
+.Vision{
+
+    position: relative;
+    display: inline-block;
+    /* display: flex; */
+    /* background-color: rgb(245,245,247); */
+ 
+}
+
+.vision1{
+    width: 100%;
+    height: 684px;
+    /* position: absolute; */
+    
+}
+.vision2{
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+
+}
+.alogoo{
+    /* position:absolute; */
+    margin-right:40px;
+    font-size: 40px;
+
+}
+
+#alogoo{
+    text-align: left;
+    width: 40px;
+    /* position: absolute; */
+    color: black;
+}
+#alogo1{
+    position: absolute;
+    margin-right: 20%;
+
+}
+.Vision{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    /* padding: 10px; */
+    
+}
+  
+.overlay-text1-2 {
+    position: absolute;
+    top: 80%; 
+    left: 13%; 
+    color: #000000; 
+    /* padding: 10px 20px;  */
+    font-size: 20px; 
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.overlay-text4 {
+    position: absolute;
+    top: 66%; 
+    left: 16%; 
+    color: #000000; 
+    /* padding: 10px 20px;  */
+    font-size: 60px; 
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+#but11-1{
+    position: absolute;
+    /* display: flex; */
+    background-color: rgb(0,113,227);
+    color: white;
+    padding: 11px;
+    border-radius: 21px;
+    font-size: 17px;
+    width: 125px;
+    text-align: center;
+    border: 1px groove  rgb(0,113,227); 
+    bottom: 30px;
+    /* text-align: center; */
+    margin-left: 16%;
+}
+#but1-2{
+    position:absolute;
+    /* display: flex; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,113,227);
+    padding: 8px;
+    border-radius: 21px;
+    font-size: 17px;
+    width: 75px;
+    bottom: 33px;
+    /* text-align: center; */
+    margin-left: 25%;
+    /* margin-top: 7px; */
+    border: 1px groove  rgb(0,113,227); 
+}
+#but1-2:hover{
+    background-color: rgb(0,113,227);
+    color: white;
+}
+
+.image-container4 {
+    position: relative;
+    display: inline-block;
+}
+  
+.image-container4 img {
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    /* flex: 10%; */
+}
+
+.overlay-text1-23 {
+    position: absolute;
+    top: 80%; 
+    left: 13%; 
+    color: #000000; 
+    /* padding: 10px 20px;  */
+    font-size: 20px; 
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.overlay-text41 {
+    position: absolute;
+    top: 66%; 
+    left: 16%; 
+    color: #000000; 
+    /* padding: 10px 20px;  */
+    font-size: 60px; 
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mac
+iPad
+iPhone
+Watch
+Vision
+AirPods
+TV & Home
+AirTag
+Accessories
+Gift Cards
