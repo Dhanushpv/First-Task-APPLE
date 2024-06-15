@@ -1,33 +1,94 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-/* div{
-    padding-bottom: 10px;
-} */
-
-.container{
-    background-color: rgb(24,24,24);
-    padding: 20px;
-    text-align: center;
-    /* margin: px; */
-    color: white;
-    font-size: 12px ;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 span{
-    margin: 20px;
+    margin: 25px;
+    width: 100%;
 }
 
+nav{
+    background-color: rgb(24,24,24);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 12px ;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 90%;
+    right: 0px;
+
+}
+
+.store-section-list{
+    list-style: none;
+    text-align: left;
+    margin-left: 7em;
+    padding-top: 1em;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.hidden-section{
+    /* position: fixed; */
+    overflow: hidden; 
+    height: 0px;
+    opacity: 0;
+    transition:  0.9s ease-in;
+}
+
+ a{
+    color: inherit;
+    text-decoration: none;
+ }
+.text-store:hover ~ .hidden-store-section{
+    height: 25rem;
+    opacity: 1;
+}
+.text-mac:hover ~ .hidden-mac-section{
+    height: 25rem;
+    opacity: 1;
+}
+.text-ipad:hover ~ .hidden-ipad-section{
+    height: 25rem;
+    opacity: 1;
+}
+.text-iphone:hover ~ .hidden-iphone-section{
+    height: 25rem;
+    opacity: 1;
+}
+.text-watch:hover ~ .hidden-watch-section{
+    height: 25rem;
+    opacity: 1;
+}
+.shop{
+    font-size: 15px;
+    color: rgb(110,110,115);
+}
+.list-container{
+    display: flex;
+    padding: 30PX;
+}
+.store-section-list1{
+    list-style: none;
+    text-align: left;
+    margin-left: 9em;
+    padding-top: 1em;
+    font-size: 12px;
+    padding: 10px;
+}
 .image{
     width: 15px;
 }
 
 .apple{
-    margin-top: 10px;
+    margin-top: 4em;
     width: 20%;
     text-align: center;
+    /* position: fixed; */
 }
 
 .apple1{
@@ -39,7 +100,7 @@ span{
 .wdc{
     color: white;
     font-size: 50px; 
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
     letter-spacing: -3px;
 } 
 
@@ -50,7 +111,7 @@ span{
 .one{
     color: white;
     font-size: 25px;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
     margin-bottom: 30px;
 }
 
@@ -85,7 +146,6 @@ span{
 .ipone{
     color: white;
     font-size: 50px;
-    font-family: Tahoma, Verdana, sans-serif;
     text-align: center;
     padding-top: 25px;
 }
@@ -93,10 +153,7 @@ span{
 .ipone1{
     color: white;
     font-size: 30px;
-    font-family: Tahoma, Verdana, sans-serif;
     text-align: center;
-    
-
 }
 
 .pro{
@@ -149,14 +206,14 @@ span{
 #ipro{
     color: white;
     font-size: 50px;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
     text-align: center;
     padding-top: 25px;
 }
 .iprosub{
     color: white;
     font-size: 30px;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
     text-align: center;
 }
 .ipro-img{
@@ -197,7 +254,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 40px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .overlay-text1-1 {
     position: absolute;
@@ -207,7 +264,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 20px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .image-container2 {
     position: relative;
@@ -216,7 +273,7 @@ span{
   
 .image-container2 img {
     display: block;
-    width: 100%;
+    width: 97%;
     height: auto;
     padding: 10px 10px 10px 20px;
 }
@@ -230,7 +287,7 @@ span{
     /* padding: 10px 20px;  */
     /* font-size: 40px;  */
     /* text-align: center; */
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 #but11{
     position: absolute;
@@ -335,7 +392,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 20px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .overlay-text4 {
     position: absolute;
@@ -345,7 +402,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 60px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 #but11-1{
     position: absolute;
@@ -403,7 +460,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 20px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .overlay-text41 {
     position: absolute;
@@ -413,7 +470,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 60px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 #black-icon{
     width: 44px;
@@ -428,14 +485,14 @@ span{
     /* padding: 10px 20px;  */
     font-size: 54px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .vlogo{
     display: flex;
     text-align:center;
     margin-top: 16px;
     font-size: 54px; 
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .overlay-text1-vision {
     position: absolute;
@@ -446,7 +503,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 20px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 #but-vision{
     position: absolute;
@@ -525,7 +582,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 55px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 .sec-card1{
     position: absolute;
@@ -535,7 +592,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 15px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
     width: 226px;
 }
 #black-icon-card{
@@ -552,7 +609,7 @@ span{
     /* padding: 10px 20px;  */
     font-size: 20px; 
     text-align: center;
-    font-family: Tahoma, Verdana, sans-serif;
+    /* font-family: Tahoma, Verdana, sans-serif; */
 }
 #but-card{
     position:absolute;
@@ -708,7 +765,7 @@ footer{
     line-height: 13px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(68,68,69) ; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
     opacity: 0.5;
 }
 .ul{
@@ -723,7 +780,7 @@ footer{
     /* line-height: 13px; */
     /* margin-bottom: 20px; */
     /* border-bottom: 1px solid rgb(68,68,69) ;  */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
     opacity: 0.5;
     /* padding: 10px */
     line-height: 10px;
@@ -756,10 +813,9 @@ b{
     margin-left: 368px;
     color: rgb(68,68,69);
     line-height: 13px;
-      border-bottom: 1px solid rgb(68,68,69) ; 
+    border-bottom: 1px solid rgb(68,68,69) ; 
     margin-bottom: 20px;
     padding: 15px;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     opacity: 0.5;
     /* padding: 10px */
