@@ -1,0 +1,204 @@
+/* ipad */
+<div class="mac-sec-main-4">
+        <span class="txt-sec-3">
+            <b>Explore the lineup.</b>
+        </span>
+        <div class="btn-group">
+            <a href="#lap"> Laptops</a>
+            <a href="#desk">Desktops</a> 
+            <a href="#display">Displays</a> 
+        </div>
+        
+        <div class="lap-sec-main" id="#lap">
+            <div class="lap-sec">
+                <div id="lap">
+                    <img src="/images/macsection/mcapro.png" alt="" value="#" style="margin-left: 3em;">
+                    <span class="lap-sec-txt">
+                        <div class="air13"><b class="air133">MacBook Air 13” and 15”</b></div>
+                        <div class="lap-txt">M2 or M3 chip</div>
+                        <div class="lap-txt">Strikingly thin and fast so you can work, play, or create anywhere.</div>
+                        <div class="lap-txt">From $999 or $83.25/mo. for 12 mo.** </div>
+                        <div>
+                              <button id="bnt-learn">Learn more</a></button>
+                              <a href="" id="buy">Buy</a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <img src="/images/macsection/mcapro.png" alt="" value="#" style="margin-left: 3em;">
+                <span class="lap-sec-txt">
+                    <div class="air13"><b class="air133">MacBook Air 14” and 16”</b></div>
+                    <div class="lap-txt">M3, M3 Pro, or M3 Max chip</div>
+                    <div class="lap-txt">The most advanced Mac laptops for demanding workflows.</div>
+                    <div class="lap-txt">From $1599 or $133.25/mo. for 12 mo.**</div>
+                    <div>
+                        <button id="bnt-learn2">Learn more</a></button>
+                        <a href="" id="buy">Buy</a>
+                  </div>
+                </span>
+            </div>
+        </div>
+    
+        <div class="lap-sec-main2" id="desk">
+            <div class="lap-sec">
+                <div id="#des">
+                    <img src="/images/macsection/desk.png" alt="" value="#" style="margin-left: 3em;">
+                    <span class="lap-sec-txt">
+                        <div class="air13"><b id="air13">iMac</b></div>
+                        <div class="lap-txt">M2 or M3 chip</div>
+                        <div class="lap-txt">Strikingly thin and fast so you can work, play, or create anywhere.</div>
+                        <div class="lap-txt">From $999 or $83.25/mo. for 12 mo.** </div>
+                        <div>
+                            <button id="bnt-learn">Learn more</a></button>
+                            <a href="" id="buy">Buy</a>
+                      </div>
+                        
+                    </span>
+                </div>
+            </div>
+            <div class="mini">
+                <img src="/images/macsection/mini.png" alt="" value="#" style="margin-left: 3em;">
+                <span class="lap-sec-txt">
+                    <div class="air13"><b id="air13">Mac mini</b></div>
+                    <div class="lap-txt">M2 or M3 chip</div>
+                    <div class="lap-txt">Strikingly thin and fast so you can work, play, or create anywhere.</div>
+                    <div class="lap-txt">From $999 or $83.25/mo. for 12 mo.** </div>
+                    <div>
+                        <button id="bnt-learn">Learn more</a></button>
+                        <a href="" id="buy">Buy</a>
+                  </div>
+                </span>
+            </div>
+            <div class="lap-sec-main" id="desk">
+                <div class="lap-sec">
+                    <div class="studio">
+                        <img src="/images/macsection/studio.png" alt="" value="#" style="margin-left: 3em;">
+                        <span class="lap-sec-txt">
+                            <div class="air13"><b id="air13">Mac Studio</b></div>
+                            <div class="lap-txt">M2 or M3 chip</div>
+                            <div class="lap-txt">Strikingly thin and fast so you can work, play, or create anywhere.</div>
+                            <div class="lap-txt">From $999 or $83.25/mo. for 12 mo.** </div>
+                            <div>
+                                <button id="bnt-learn">Learn more</a></button>
+                                <a href="" id="buy">Buy</a>
+                          </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="lap-sec">
+                    <div class="cpu">
+                        <img src="/images/macsection/cpu.png" alt="" value="#" style="margin-left: 3em;">
+                        <span class="lap-sec-txt">
+                            <div class="air13"><b id="air13">Mac Pro</b></div>
+                            <div class="lap-txt">M2 or M3 chip</div>
+                            <div class="lap-txt">Strikingly thin and fast so you can work, play, or create anywhere.</div>
+                            <div class="lap-txt">From $999 or $83.25/mo. for 12 mo.** </div>
+                            <div>
+                                <button id="bnt-learn">Learn more</a></button>
+                                <a href="" id="buy">Buy</a>
+                          </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lap-sec-last" id="#dis">
+            <div id="#dis">
+                <div id="display">
+                    <img src="/images/macsection/stv.png" alt="" value="#" style="margin-left: 3em;">
+                    <span class="lap-sec-txt">
+                        <div class="tv"><b class="air133">Studio Display</b></div>
+                        <div class="lap-txt">M2 or M3 chip</div>
+                        <div class="lap-txt">Strikingly thin and fast so you can work, play, or create anywhere.</div>
+                        <div class="lap-txt">From $999 or $83.25/mo. for 12 mo.** </div>
+                        <div>
+                            <button id="bnt-learn">Learn more</a></button>
+                            <a href="" id="buy">Buy</a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <img src="/images/macsection/ltv.png" alt="" value="#" style="margin-left: 3em;">
+                <span class="lap-sec-txt">
+                    <div class="tvs"><b class="air133">Pro Display XDR</b></div>
+                    <div class="lap-txt">M3, M3 Pro, or M3 Max chip</div>
+                    <div class="lap-txt">The most advanced Mac laptops for demanding workflows.</div>
+                    <div class="lap-txt">From $1599 or $133.25/mo. for 12 mo.**</div>
+                    <div class="but">
+                        <button id="bnt-learn2">Learn more</a></button>
+                        <a href="" id="buy">Buy</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="mac-sec-5-main">
+        <div class="sec-5-txt"><b id="sec-5-txt">Why Apple is the best<br>place to buy Mac.</b></div>
+        <div class="mac-5-box-main">
+            <div class="mac-5-box">
+               
+                <img src="/images/macsection/mag card.png" alt="" id="box1">
+                <span class="mag-pay"><b>Pay over time, interest‑free.</b></span>
+                <span class="mag-pay mag-txt">When you choose to check out with Apple Card Monthly Installments.</span>
+            </div>
+            <div class="mac-5-box">
+                <img src="/images/macsection/tradein.png" alt="" id="box1">
+                <span class="mag-pay"><b>Save with Apple Trade In.</b></span>
+                <span class="mag-pay mag-txt">Get credit toward your next Mac when you trade in an eligible device.</span>
+            </div>
+            <div class="mac-5-box">
+                <img src="/images/macsection/custommac.png" alt="" id="box1">
+                <span class="mag-pay"><b>Customize your Mac.</b></span>
+                <span class="mag-pay mag-txt">Choose your chip, memory, storage, even color.</span>
+            </div>
+            <div class="mac-5-box">
+                <img src="/images/macsection/turck.png" alt="" id="box1">
+                <span class="mag-pay  box1"><b>Get flexible delivery and easy pickup.</b></span>
+                <span class="mag-pay mag-txt">Get flexible delivery and easy pickup.</span>
+            </div>
+            <div class="mac-5-box">
+                <img src="/images/macsection/shop.png" alt="" id="box1">
+                <span class="mag-pay"><b>Shop live with a Specialist.</b></span>
+                <span class="mag-pay mag-txt">Let us guide you live over video and answer all of your questions.</span>
+            </div>
+            <div class="mac-5-box">
+                <img src="/images/macsection/user.png" alt="" id="box1">
+                <span class="mag-pay"><b>Get to know your new Mac.</b></span>
+                <span class="mag-pay mag-txt">Learn how to get the most out of your new Mac with a free one-on-one Personal Session.</span>
+            </div>
+            <div class="mac-5-box">
+                <img src="/images/macsection/exploreapple.png" alt="" id="box1">
+                <span class="mag-pay   box2"><b>Explore a shopping experience designed around you.</b></span>
+                <span class="mag-pay mag-txt">Use the Apple Store app to get a more personal way to shop.</span>
+            </div>
+        </div>  
+    </div>
+    <div class="sec-6-txt "><b id="sec-5-txt">Significant others.</b></div> 
+    <div class="mac-sec-main-6">
+        <div class="mac-sec-main-txt">
+            <span class="mac-sec-6-hed">Mac and iPhone</span>
+            <span class="mac-sec-6-txt">You can answer calls or messages from your iPhone directly on your Mac. Copy images, video, or text on your iPhone, then paste into another app on your nearby Mac. With iCloud, you can access your favorite files from either your iPhone or your Mac. And so much more.</span>
+            <span class="mac-sec-6-secondhed"> Mac and iPad</span>
+            <span class="mac-sec-6-thirdhed"> Mac and Apple Watch</span>
+        </div>
+        <div class="sec-6-img"><img src="/images/macsection/all.jpg" alt="" id="sec-6-img"></div>
+    </div>
+    <div class="mac-sec-7-main">
+        <div class="sec-6-txt "><b id="sec-5-txt">Mac essentials.</b></div> 
+    </div>
+    <div class="mac-last-sec-main">
+        <div class="back">
+            <div class="mac-last-firstimg">
+                <div class="lasttxt"><b>Mac accessories</b></div>
+                <img src="/images/macsection/macaccessories.jpg" alt="" class="macaccessories">
+            </div>
+        </div>
+        <div class="back2">
+            <div class="mac-last-lastimg">
+                <div class="lasttxt2">Studio Display</div>
+                <img src="/images/macsection/studiodisplay.jpg" alt="">
+            </div>
+        </div>
+    </div>
